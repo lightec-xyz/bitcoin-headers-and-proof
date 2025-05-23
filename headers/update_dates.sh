@@ -1,7 +1,7 @@
 #!/bin/bash
 # from: https://stackoverflow.com/questions/25701265/how-to-generate-a-list-of-all-dates-in-a-range-using-the-tools-available-in-bash
 # with "until"
-start_date="2025-05-07"
+start_date="2025-05-23"
 today=$(TZ=UTC date -I)
 until [[ $start_date = $today ]]; do
     echo "adding $start_date"

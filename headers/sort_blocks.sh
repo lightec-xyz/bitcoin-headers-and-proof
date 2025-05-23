@@ -3,7 +3,7 @@
 set -e
 
 # make it restartable
-start_date=20250507
+start_date=20250523
 
 tmp=tmp.dump
 rm -f $tmp

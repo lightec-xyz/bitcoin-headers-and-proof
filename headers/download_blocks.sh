@@ -12,7 +12,7 @@ download() {
   sleep 1
 }
 
-start_date="20250507"
+start_date="20250523"
 
 for date in $(cat ../dates.txt); do
 
